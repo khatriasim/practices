@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(173, 218, 218);
+
+}
+
+.clock-container{
+    align-items: center;
+    background-color: rgb(73, 68, 68);
+    border-radius: 10px;
+    box-shadow: 0 0px 60px rgb(219, 25, 42);
+}
+.clock{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    font-size: 3.5rem;
+
+}
+.period{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+}
+.date{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+}
